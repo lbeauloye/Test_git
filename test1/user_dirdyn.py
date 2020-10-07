@@ -32,7 +32,7 @@ def user_dirdyn_init(mbs_data, mbs_dirdyn):
     # mbs_data.my_sensor = Robotran.MbsSensor(mbs_data)
     # mbs_data.my_sensor_v = []
     Robotran.define_output_vector('Qq', 1)
-    mbs_data.sensor_pasr1 = Robotran.MbsSensor(mbs_data)
+    mbs_data.sensor_pasr1 = RobotrsSensor(mbs_data)
     Robotran.define_output_vector('qdd_sensor_passenger1', 3)
     
     id_sensor_nacelle1 _data.sensor_id['sensor_nacelle1']
