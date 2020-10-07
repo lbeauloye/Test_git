@@ -67,7 +67,7 @@ def user_dirdyn_loop(mbs_data, mbs_dirdyn):
     # mbs_data.my_sensor.comp_s_sensor(1)
     # mbs_data.my_sensor_v.append(mbs_data.my_sensor.V[3])
     id_sensor_passenger1 = mbs_data.sensor_id['sensor_passenger1']
-    mbs_data.sensor_passenger1.comp_s_sensor(id_sensor_passenger1)
+    mbs_data.sensor_pasger1.comp_s_sensor(id_sensor_passenger1)
     id_sensor_nacelle1 = mbs_data.sensor_id['sensor_nacelle1']
     mbs_data.sensor_nacelle1.comp_s_sensor(id_sensor_nacelle1)
     
