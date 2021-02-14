@@ -67,7 +67,7 @@ int dwt53_get_lvl_sizes(int w, int ndecomp, int* lvl_sizes)
 		else
 		{
 			size = lf_size;
-			coucouuuuuu;
+			coucouuuu;
 			prout;
 		}
 		lvl_sizes[h_lvl] = size;
