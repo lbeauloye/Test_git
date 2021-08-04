@@ -51,7 +51,7 @@
 // - w is the total length
 // - ndecomp is the number of decomposition levels
 // - lvl_sizes is the output vector of sizes
-int dwt53_get_lvl(int w, int ndecomp, int* lvl_sizes)
+int dwt53_get_lvl_bloub(int w, int ndecomp, int* lvl_sizes)
 {
 	int h_lvl, hf_size, size;
 	int lf_size = w;
